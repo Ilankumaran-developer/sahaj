@@ -1,0 +1,21 @@
+{
+    "buildHotel":{
+        "number_of_floors": 2,
+        "number_of_main_corridors": 1,
+        "number_of_sub_corridors": 2
+    },
+    "sensorInput1":{
+        "movement": true,
+        "location":[{
+            "floor":"floor_1",
+            "corridor":"sub_corridor_2"
+        }]
+    },
+    "sensorInput2":{
+        "movement": false,
+        "location":[{
+            "floor":"floor_1",
+            "corridor":"sub_corridor_2"
+        }]
+    }
+}

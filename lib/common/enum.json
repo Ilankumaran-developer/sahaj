@@ -1,0 +1,25 @@
+{
+    "methods":{
+        "BUILD" : "BUILD",
+        "GETSTATE" : "GETSTATE",
+        "HELLO" : "HELLO",
+        "UPDATE" : "UPDATE",
+        "PROCESSSENSORINPUT": "PROCESSSENSORINPUT"
+    },
+    "corridor_types":{"MAIN":"main","SUB":"sub"},
+    "possibleApplianceStates" : {"OFF":"OFF", "ON":"ON"},
+    "appliances":{
+        "light":{
+            "name":"light",
+            "numbers" : 1,
+            "units":5,
+            "defaultState" : "OFF"
+        },
+        "AC":{
+            "name":"AC",
+            "numbers" : 1,
+            "units":10,
+            "defaultState" : "ON"
+        }
+    }
+}
