@@ -22,7 +22,7 @@ class AppLoader {
         routeHanlder.buildRoutes()
         let server = http.createServer(app)
         server.listen('8000');
-        console.log('Hello world')
+        console.log('Welcome to Sahaj')
     }
 }
 
