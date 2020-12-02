@@ -1,0 +1,44 @@
+{
+    "appliances": {
+        "light": {
+            "name": "light",
+            "quantity_per_main_corridor": 1,
+            "quantity_per_sub_corridor": 1,
+            "OFF_units": 0,
+            "ON_units": 5,
+            "default_state_in_main_corridor": "ON",
+            "default_state_in_sub_corridor": "OFF"
+        },
+        "AC": {
+            "name": "AC",
+            "quantity_per_main_corridor": 1,
+            "quantity_per_sub_corridor": 1,
+            "ON_units": 10,
+            "OFF_units": 0,
+            "default_state_in_main_corridor": "ON",
+            "default_state_in_sub_corridor": "ON"
+        }
+    },
+    "devices_can_be_turned_on": {
+        "light": {
+            "only_on": [
+                "sub"
+            ]
+        },
+        "AC": {
+            "only_on": [
+                "sub"
+            ]
+        }
+    },
+    "devices_can_be_adjusted": {
+        "AC": {
+            "only_on": [
+                "sub"
+            ]
+        }
+    },
+    "adjustableCorridors": [
+        "sub"
+    ]
+}

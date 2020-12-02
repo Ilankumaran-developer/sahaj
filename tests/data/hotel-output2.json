@@ -1,204 +1,657 @@
 {
-    "floor_1": {
-        "corridors": {
-            "main_corridor_1": {
-                "type": "main",
-                "name": "main_corridor_1",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "ON",
-                        "units": 5
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
+    "hotel_output": {
+        "floor_1": {
+            "corridors": {
+                "main_corridor_1": {
+                    "type": "main",
+                    "name": "main_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
                 },
-                "unitsConsumed": 15
+                "sub_corridor_1": {
+                    "type": "sub",
+                    "name": "sub_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_2": {
+                    "type": "sub",
+                    "name": "sub_corridor_2",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_3": {
+                    "type": "sub",
+                    "name": "sub_corridor_3",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_4": {
+                    "type": "sub",
+                    "name": "sub_corridor_4",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_5": {
+                    "type": "sub",
+                    "name": "sub_corridor_5",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                }
             },
-            "sub_corridor_1": {
-                "type": "sub",
-                "name": "sub_corridor_1",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_2": {
-                "type": "sub",
-                "name": "sub_corridor_2",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_3": {
-                "type": "sub",
-                "name": "sub_corridor_3",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_4": {
-                "type": "sub",
-                "name": "sub_corridor_4",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            }
-        },
-        "name": "floor_1",
-        "maxUnits": 55,
-        "unitsConsumed": 55,
-        "mainCorridors": [
-            "main_corridor_1"
-        ],
-        "subCorridors": [
-            "sub_corridor_1",
-            "sub_corridor_2",
-            "sub_corridor_3",
-            "sub_corridor_4"
-        ]
+            "name": "floor_1",
+            "maxUnits": 65,
+            "unitsConsumed": 65,
+            "mainCorridors": [
+                "main_corridor_1"
+            ],
+            "subCorridors": [
+                "sub_corridor_1",
+                "sub_corridor_2",
+                "sub_corridor_3",
+                "sub_corridor_4",
+                "sub_corridor_5"
+            ],
+            "corridors_has_movement": {}
+        }
     },
-    "floor_2": {
-        "corridors": {
-            "main_corridor_1": {
-                "type": "main",
-                "name": "main_corridor_1",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "ON",
-                        "units": 5
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
+    "sensor_output_corr_1_on": {
+        "floor_1": {
+            "corridors": {
+                "main_corridor_1": {
+                    "type": "main",
+                    "name": "main_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
                 },
-                "unitsConsumed": 15
+                "sub_corridor_1": {
+                    "type": "sub",
+                    "name": "sub_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_2": {
+                    "type": "sub",
+                    "name": "sub_corridor_2",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "OFF",
+                            "units": 0
+                        }
+                    ],
+                    "unitsConsumed": 0
+                },
+                "sub_corridor_3": {
+                    "type": "sub",
+                    "name": "sub_corridor_3",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_4": {
+                    "type": "sub",
+                    "name": "sub_corridor_4",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_5": {
+                    "type": "sub",
+                    "name": "sub_corridor_5",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                }
             },
-            "sub_corridor_1": {
-                "type": "sub",
-                "name": "sub_corridor_1",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_2": {
-                "type": "sub",
-                "name": "sub_corridor_2",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_3": {
-                "type": "sub",
-                "name": "sub_corridor_3",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
-            },
-            "sub_corridor_4": {
-                "type": "sub",
-                "name": "sub_corridor_4",
-                "appliances": {
-                    "light": {
-                        "name": "light",
-                        "state": "OFF",
-                        "units": 0
-                    },
-                    "AC": {
-                        "name": "AC",
-                        "state": "ON",
-                        "units": 10
-                    }
-                },
-                "unitsConsumed": 10
+            "name": "floor_1",
+            "maxUnits": 65,
+            "unitsConsumed": 60,
+            "mainCorridors": [
+                "main_corridor_1"
+            ],
+            "subCorridors": [
+                "sub_corridor_1",
+                "sub_corridor_2",
+                "sub_corridor_3",
+                "sub_corridor_4",
+                "sub_corridor_5"
+            ],
+            "corridors_has_movement": {
+                "sub_corridor_1": {
+                    "adjusted": [
+                        "sub_corridor_2"
+                    ]
+                }
             }
-        },
-        "name": "floor_2",
-        "maxUnits": 55,
-        "unitsConsumed": 55,
-        "mainCorridors": [
-            "main_corridor_1"
-        ],
-        "subCorridors": [
-            "sub_corridor_1",
-            "sub_corridor_2",
-            "sub_corridor_3",
-            "sub_corridor_4"
-        ]
+        }
+    },
+    "sensor_output_corr_2_on": {
+        "floor_1": {
+            "corridors": {
+                "main_corridor_1": {
+                    "type": "main",
+                    "name": "main_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_1": {
+                    "type": "sub",
+                    "name": "sub_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_2": {
+                    "type": "sub",
+                    "name": "sub_corridor_2",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_3": {
+                    "type": "sub",
+                    "name": "sub_corridor_3",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "OFF",
+                            "units": 0
+                        }
+                    ],
+                    "unitsConsumed": 0
+                },
+                "sub_corridor_4": {
+                    "type": "sub",
+                    "name": "sub_corridor_4",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_5": {
+                    "type": "sub",
+                    "name": "sub_corridor_5",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                }
+            },
+            "name": "floor_1",
+            "maxUnits": 65,
+            "unitsConsumed": 65,
+            "mainCorridors": [
+                "main_corridor_1"
+            ],
+            "subCorridors": [
+                "sub_corridor_1",
+                "sub_corridor_2",
+                "sub_corridor_3",
+                "sub_corridor_4",
+                "sub_corridor_5"
+            ],
+            "corridors_has_movement": {
+                "sub_corridor_1": {
+                    "adjusted": [
+                        "sub_corridor_2"
+                    ]
+                },
+                "sub_corridor_2": {
+                    "adjusted": [
+                        "sub_corridor_3"
+                    ]
+                }
+            }
+        }
+    },
+    "sensor_output_corr_3_on": {
+        "floor_1": {
+            "corridors": {
+                "main_corridor_1": {
+                    "type": "main",
+                    "name": "main_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_1": {
+                    "type": "sub",
+                    "name": "sub_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_2": {
+                    "type": "sub",
+                    "name": "sub_corridor_2",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_3": {
+                    "type": "sub",
+                    "name": "sub_corridor_3",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_4": {
+                    "type": "sub",
+                    "name": "sub_corridor_4",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "OFF",
+                            "units": 0
+                        }
+                    ],
+                    "unitsConsumed": 0
+                },
+                "sub_corridor_5": {
+                    "type": "sub",
+                    "name": "sub_corridor_5",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "OFF",
+                            "units": 0
+                        }
+                    ],
+                    "unitsConsumed": 0
+                }
+            },
+            "name": "floor_1",
+            "maxUnits": 65,
+            "unitsConsumed": 60,
+            "mainCorridors": [
+                "main_corridor_1"
+            ],
+            "subCorridors": [
+                "sub_corridor_1",
+                "sub_corridor_2",
+                "sub_corridor_3",
+                "sub_corridor_4",
+                "sub_corridor_5"
+            ],
+            "corridors_has_movement": {
+                "sub_corridor_1": {
+                    "adjusted": [
+                        "sub_corridor_2"
+                    ]
+                },
+                "sub_corridor_2": {
+                    "adjusted": [
+                        "sub_corridor_3"
+                    ]
+                },
+                "sub_corridor_3": {
+                    "adjusted": [
+                        "sub_corridor_4",
+                        "sub_corridor_5"
+                    ]
+                }
+            }
+        }
+    },
+    "sensor_output_corr_3_off": {
+        "floor_1": {
+            "corridors": {
+                "main_corridor_1": {
+                    "type": "main",
+                    "name": "main_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_1": {
+                    "type": "sub",
+                    "name": "sub_corridor_1",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_2": {
+                    "type": "sub",
+                    "name": "sub_corridor_2",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "ON",
+                            "units": 5
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 15
+                },
+                "sub_corridor_3": {
+                    "type": "sub",
+                    "name": "sub_corridor_3",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_4": {
+                    "type": "sub",
+                    "name": "sub_corridor_4",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "ON",
+                            "units": 10
+                        }
+                    ],
+                    "unitsConsumed": 10
+                },
+                "sub_corridor_5": {
+                    "type": "sub",
+                    "name": "sub_corridor_5",
+                    "appliances": [
+                        {
+                            "name": "light",
+                            "state": "OFF",
+                            "units": 0
+                        },
+                        {
+                            "name": "AC",
+                            "state": "OFF",
+                            "units": 0
+                        }
+                    ],
+                    "unitsConsumed": 0
+                }
+            },
+            "name": "floor_1",
+            "maxUnits": 65,
+            "unitsConsumed": 65,
+            "mainCorridors": [
+                "main_corridor_1"
+            ],
+            "subCorridors": [
+                "sub_corridor_1",
+                "sub_corridor_2",
+                "sub_corridor_3",
+                "sub_corridor_4",
+                "sub_corridor_5"
+            ],
+            "corridors_has_movement": {
+                "sub_corridor_1": {
+                    "adjusted": [
+                        "sub_corridor_2"
+                    ]
+                },
+                "sub_corridor_2": {
+                    "adjusted": [
+                        "sub_corridor_3"
+                    ]
+                }
+            }
+        }
     }
 }

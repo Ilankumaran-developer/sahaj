@@ -1,3 +1,5 @@
 {
-    "schemaInvalid" : "Please check the input payload. Input payload seems to be incorrect"
+    "schemaInvalid": "Please check the input payload. Input payload seems to be incorrect",
+    "CannotbeAdjusted": "This input may lead to exceed the maximum electrical usage of that specific floor",
+    "emptyHotel": "Please construct hotel before giving input from sensor"
 }

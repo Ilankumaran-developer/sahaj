@@ -1,0 +1,29 @@
+{
+    "name": "CreateHotel",
+    "events": [
+        {
+            "name": "Start",
+            "actions": [
+                {
+                    "name": "AddFloors"
+                }
+            ]
+        },
+        {
+            "name": "AddFloorSuccess",
+            "actions": [
+                {
+                    "name": "AddCorridors"
+                }
+            ]
+        },
+        {
+            "name": "AddCorridorsSuccess",
+            "actions": [
+                {
+                    "name": "AddAppliances"
+                }
+            ]
+        }
+    ]
+}

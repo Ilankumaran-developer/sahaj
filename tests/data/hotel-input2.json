@@ -1,21 +1,36 @@
 {
     "buildHotel":{
-        "number_of_floors": 2,
+        "number_of_floors": 1,
         "number_of_main_corridors": 1,
-        "number_of_sub_corridors": 4
+        "number_of_sub_corridors": 5
     },
-    "sensorInput1":{
+    "sensor_input_corr_1_on":{
         "movement": true,
-        "location":[{
+        "location":{
             "floor":"floor_1",
-            "corridor":"sub_corridor_2"
-        }]
+            "corridor":"sub_corridor_1"
+        }
     },
-    "sensorInput2":{
-        "movement": false,
-        "location":[{
+    "sensor_input_corr_2_on":{
+        "movement": true,
+        "location":{
             "floor":"floor_1",
             "corridor":"sub_corridor_2"
-        }]
+        }
+    },
+    "sensor_input_corr_3_on":{
+        "movement": true,
+        "location":{
+            "floor":"floor_1",
+            "corridor":"sub_corridor_3"
+        }
+    },
+    "sensor_input_corr_3_off":{
+        "movement": false,
+        "location":{
+            "floor":"floor_1",
+            "corridor":"sub_corridor_3"
+        }
     }
+   
 }

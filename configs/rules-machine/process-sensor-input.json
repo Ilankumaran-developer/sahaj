@@ -1,0 +1,37 @@
+{
+    "name": "ProcessSensorInput",
+    "events": [
+        {
+            "name": "Start",
+            "actions": [
+                {
+                    "name": "PreValidate"
+                }
+            ]
+        },
+        {
+            "name": "Movement",
+            "actions": [
+                {
+                    "name": "UpdateAppliance"
+                }
+            ]
+        },
+        {
+            "name": "ValidationFailed",
+            "actions": [
+                {
+                    "name": "AdjustDevices"
+                }
+            ]
+        },
+        {
+            "name": "Nomovement",
+            "actions": [
+                {
+                    "name": "ResetFloors"
+                }
+            ]
+        }
+    ]
+}

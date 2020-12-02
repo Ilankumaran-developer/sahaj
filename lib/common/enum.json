@@ -1,25 +1,52 @@
 {
-    "methods":{
-        "BUILD" : "BUILD",
-        "GETSTATE" : "GETSTATE",
-        "HELLO" : "HELLO",
-        "UPDATE" : "UPDATE",
+    "RuleMachines": {
+        "CreateHotel": "CreateHotel",
+        "ProcessSensorInput": "ProcessSensorInput"
+    },
+    "RuleEvents": {
+        "Start": "Start",
+        "AddFloorSuccess": "AddFloorSuccess",
+        "AddCorridorsSuccess": "AddCorridorsSuccess",
+        "Movement": "Movement",
+        "ValidationFailed": "ValidationFailed",
+        "Nomovement": "Nomovement"
+    },
+    "ActionMap": {
+        "AddFloors": "AddFloors",
+        "AddCorridors": "AddCorridors",
+        "AddAppliances": "AddAppliances",
+        "PreValidate": "PreValidate",
+        "UpdateAppliance": "UpdateAppliance",
+        "AdjustDevices": "AdjustDevices",
+        "ResetFloors": "ResetFloors"
+    },
+    "methods": {
+        "BUILD": "BUILD",
+        "GETSTATE": "GETSTATE",
+        "HELLO": "HELLO",
+        "UPDATE": "UPDATE",
         "PROCESSSENSORINPUT": "PROCESSSENSORINPUT"
     },
-    "corridor_types":{"MAIN":"main","SUB":"sub"},
-    "possibleApplianceStates" : {"OFF":"OFF", "ON":"ON"},
-    "appliances":{
-        "light":{
-            "name":"light",
-            "numbers" : 1,
-            "units":5,
-            "defaultState" : "OFF"
+    "corridor_types": {
+        "MAIN": "main",
+        "SUB": "sub"
+    },
+    "possibleApplianceStates": {
+        "OFF": "OFF",
+        "ON": "ON"
+    },
+    "appliances": {
+        "light": {
+            "name": "light",
+            "numbers": 1,
+            "units": 5,
+            "defaultState": "OFF"
         },
-        "AC":{
-            "name":"AC",
-            "numbers" : 1,
-            "units":10,
-            "defaultState" : "ON"
+        "AC": {
+            "name": "AC",
+            "numbers": 1,
+            "units": 10,
+            "defaultState": "ON"
         }
     }
 }
